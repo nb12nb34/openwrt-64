@@ -6,6 +6,6 @@ cd package
 mkdir openwrt-packages
 cd openwrt-packages
 git clone https://github.com/tty228/luci-app-serverchan
-git clone https://github.com/nb12nb34/luci-theme-atmaterial-1
+# git clone https://github.com/nb12nb34/luci-theme-atmaterial-1
 cd ../..
 ./scripts/feeds update -a && ./scripts/feeds install -a 

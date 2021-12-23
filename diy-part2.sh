@@ -9,3 +9,4 @@
 #============================================================
 
 rm -rf ./package/lean/luci-app-serverchan
+./scripts/feeds update -a && ./scripts/feeds install -a 

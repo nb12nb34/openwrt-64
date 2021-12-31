@@ -10,8 +10,8 @@
 
 name: N1 OpenWrt
 
-on:
-  repository_dispatch:
+# on:
+  # repository_dispatch:
   workflow_dispatch:
     inputs:
       ssh:

@@ -15,5 +15,4 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 git clone https://github.com/nb12nb34/tencentcloud-openwrt-plugin-ddns.git package/luci-app-tencentddns
 git clone https://github.com/nb12nb34/luci-app-poweroff.git package/luci-app-poweroff
 git clone https://github.com/nb12nb34/luci-theme-atmaterial.git package/luci-theme-atmaterial
-# git clone https://github.com/nb12nb34/luci-app-control-timewol.git package/luci-app-control-timewol
-svn co https://github.com/sirpdboy/sirpdboy-package/tree/main/luci-app-control-timewol package/luci-app-control-timewol
+git clone https://github.com/nb12nb34/luci-app-control-timewol.git package/luci-app-control-timewol

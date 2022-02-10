@@ -9,4 +9,5 @@
 #============================================================
 
 rm -rf ./package/lean/luci-app-serverchan
+chmod -R 775 ./package/nb12nb34/
 ./scripts/feeds update -a && ./scripts/feeds install -a 

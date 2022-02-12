@@ -10,5 +10,5 @@
 
 rm -rf ./package/lean/luci-app-serverchan
 rm -rf ./package/lean/luci-app-diskman
-chmod -R 775 ./package/nb12nb34/
+chmod -R 755 ./package/nb12nb34/
 ./scripts/feeds update -a && ./scripts/feeds install -a 

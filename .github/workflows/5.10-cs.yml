@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 5.10 OpenWrt_64
+name: 5.10 Ceshi
 
 on:
   repository_dispatch:

@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #============================================================
 
-rm -rf ./package/lean/luci-app-serverchan
-rm -rf ./package/lean/luci-app-diskman
+rm -rf ./luci/applications/luci-app-serverchan
+rm -rf ./luci/applications/luci-app-diskman
 chmod -R 755 ./package/nb12nb34/
 ./scripts/feeds update -a && ./scripts/feeds install -a 

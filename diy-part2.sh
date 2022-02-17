@@ -8,8 +8,8 @@
 # Blog: https://p3terx.com
 #============================================================
 
+chmod -R 755 ./package/nb12nb34/
+./scripts/feeds update -a && ./scripts/feeds install -a 
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 rm -rf ./feeds/luci/applications/luci-app-diskman
 rm -rf ./feeds/luci/applications/luci-app-dockerman
-chmod -R 755 ./package/nb12nb34/
-./scripts/feeds update -a && ./scripts/feeds install -a 

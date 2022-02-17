@@ -10,6 +10,6 @@
 
 chmod -R 755 ./package/nb12nb34/
 ./scripts/feeds update -a && ./scripts/feeds install -a 
-rm -rf ./feeds/luci/applications/luci-app-serverchan
-rm -rf ./feeds/luci/applications/luci-app-diskman
-rm -rf ./feeds/luci/applications/luci-app-dockerman
+rm -rf ./package/luci-app-serverchan
+rm -rf ./package/luci-app-diskman
+rm -rf ./package/luci-app-dockerman

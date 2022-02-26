@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 5.10 openwrt
+name: Default openwrt
 
 on:
   repository_dispatch:
@@ -24,7 +24,7 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
-  DIY_P1_SH: diy_5.10.sh
+  DIY_P1_SH: diy_default.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true

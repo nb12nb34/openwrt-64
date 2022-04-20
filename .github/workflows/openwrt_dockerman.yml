@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Default_dockerman 
+name: openwrt-5.15-dockerman 
 
 on:
   repository_dispatch:

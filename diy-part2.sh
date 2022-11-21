@@ -12,4 +12,4 @@ chmod -R 755 ./package/nb12nb34/
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 rm -rf ./feeds/luci/applications/luci-app-diskman
 rm -rf ./feeds/luci/applications/luci-app-dockerman
-
+rm -rf ./feeds/luci/applications/luci-app-netdata

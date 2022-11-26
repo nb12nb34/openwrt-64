@@ -12,4 +12,5 @@ sed -i "/helloworld/d" "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 sed -i 's/192.168.1.1/192.168.0.5/g' package/base-files/files/bin/config_generate
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/nb12nb34/luci.git package/nb12nb34

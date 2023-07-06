@@ -11,5 +11,4 @@
 sed -i 's/192.168.1.1/192.168.0.5/g' package/base-files/files/bin/config_generate
 chmod -R 755 ./package/nb12nb34/
 rm -rf ./feeds/luci/applications/luci-app-serverchan
-rm -rf ./feeds/luci/applications/luci-app-diskman
 rm -rf ./feeds/luci/applications/luci-app-dockerman

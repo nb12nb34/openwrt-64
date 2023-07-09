@@ -12,4 +12,3 @@ sed -i "/helloworld/d" "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/nb12nb34/luci.git package/nb12nb34
-# git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman

@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #=============================================================
 
-git checkout a2a0e5b
+# git checkout a2a0e5b
 sed -i "/helloworld/d" "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld;main" >> "feeds.conf.default"
 # git clone -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush.git package/wechatpush

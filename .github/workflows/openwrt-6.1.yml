@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-lede
+name: OpenWrt-6.1
 
 on:
   repository_dispatch:

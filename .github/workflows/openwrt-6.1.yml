@@ -138,7 +138,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: OpenWrt_D_${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: Bin_${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin/packages/x86_64
 
     - name: 整理编译好的固件
@@ -160,7 +160,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt-img-${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: OpenWrt_${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
 
     

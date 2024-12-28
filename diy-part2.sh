@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #============================================================
 
-sed -i 's/192.168.1.1/192.168.0.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.0.5/g' package/base-files/luci2/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-opentomcat/g' ./feeds/luci/collections/luci/Makefile
 chmod -R 755 ./package/nb12nb34/
 # rm -rf ./feeds/luci/applications/luci-app-serverchan

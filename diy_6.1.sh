@@ -8,10 +8,9 @@
 # Blog: https://p3terx.com
 #=============================================================
 sed -i 's/KERNEL_PATCHVER:=6.6/KERNEL_PATCHVER:=6.12/g' ./target/linux/x86/Makefile
-#sed -i '/openwrt-23.05/d' feeds.conf.default
 # sed -i "/helloworld/d" "feeds.conf.default"
 #  echo "src-git helloworld https://github.com/fw876/helloworld;main" >> "feeds.conf.default"
-# git clone -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush.git package/wechatpush
+git clone https://github.com/tty228/luci-app-wechatpush.git package/wechatpush
 # git clone https://github.com/fw876/helloworld.git package/ssr
 # git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
 # git clone -b js https://github.com/sirpdboy/luci-theme-kucat.git  package/luci-theme-kucat

@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #============================================================
 git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
-git clone -b js https://github.com/sirpdboy/luci-theme-kucat.git  package/luci-theme-kucat
+git clone https://github.com/jerrykuku/luci-app-argon-config.git  package/luci-app-argon-config
 sed -i 's/192.168.1.1/192.168.0.5/g' package/base-files/luci2/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 chmod -R 755 ./package/nb12nb34/

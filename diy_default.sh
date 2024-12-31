@@ -7,9 +7,8 @@
 # Blog: https://p3terx.com
 #=============================================================
 
-sed -i "/helloworld/d" "feeds.conf.default"
-echo "src-git helloworld https://github.com/fw876/helloworld;main" >> "feeds.conf.default"
-# git clone https://github.com/fw876/helloworld.git package/ssr
+# sed -i "/helloworld/d" "feeds.conf.default"
+# echo "src-git helloworld https://github.com/fw876/helloworld;main" >> "feeds.conf.default"
 git clone https://github.com/nb12nb34/luci.git package/nb12nb34
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall

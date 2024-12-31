@@ -8,8 +8,4 @@
 #=============================================================
 
 # sed -i "/helloworld/d" "feeds.conf.default"
-# echo "src-git helloworld https://github.com/fw876/helloworld;main" >> "feeds.conf.default"
-git clone https://github.com/nb12nb34/luci.git package/nb12nb34
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
-git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-serverchan
+# echo "src-git helloworld https://github.com/fw876/helloworld;main" >> "feeds.conf.default

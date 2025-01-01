@@ -11,8 +11,7 @@
 sed -i 's/192.168.1.1/192.168.0.5/g' package/base-files/luci2/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 chmod -R 755 ./package/nb12nb34/
-./scripts/feeds update helloworld
-./scripts/feeds install -a -f -p helloworld
+
 rm -rf ./feeds/luci/applications/luci-app-wechatpush
 rm -rf ./feeds/luci/themes/luci-theme-argon
 # rm -rf ./feeds/luci/applications/luci-app-serverchan

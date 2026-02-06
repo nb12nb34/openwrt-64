@@ -15,5 +15,6 @@ chmod -R 755 ./package/nb12nb34/
 
 rm -rf ./feeds/luci/applications/luci-app-wechatpush
 rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./feeds/luci/applications/luci-app-wechatpush
 # rm -rf ./feeds/luci/applications/luci-app-serverchan
 # rm -rf ./feeds/luci/applications/luci-app-dockerman

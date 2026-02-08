@@ -15,3 +15,4 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git  package/luci-
 git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/passwall_luci
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2

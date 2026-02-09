@@ -15,3 +15,4 @@ chmod -R 755 ./package/nb12nb34/
 
 rm -rf ./feeds/luci/applications/luci-app-wechatpush
 rm -rf ./feeds/luci/themes/luci-theme-argon
+sed -i 's/services/nas/g' ./feeds/luci/applications/luci-app-samba4/luasrc/controller/samba4.lua

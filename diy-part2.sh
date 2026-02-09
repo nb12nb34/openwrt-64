@@ -15,5 +15,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci
 chmod -R 755 ./package/nb12nb34/
 
 rm -rf ./feeds/luci/applications/luci-app-wechatpush
-# rm -rf ./feeds/luci/applications/luci-app-samba4
 rm -rf ./feeds/luci/themes/luci-theme-argon

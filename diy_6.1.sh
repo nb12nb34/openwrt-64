@@ -11,7 +11,7 @@ sed -i 's/KERNEL_PATCHVER:=6.6/KERNEL_PATCHVER:=6.12/g' ./target/linux/x86/Makef
 
 git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git  package/luci-app-argon-config
-# git clone https://github.com/sirpdboy/luci-theme-kucat.git  package/luci-theme-kucat
+git clone https://github.com/sirpdboy/luci-theme-kucat.git  package/luci-theme-kucat
 git clone https://github.com/fw876/helloworld.git package/ssr
 # git clone https://github.com/esirplayground/luci-app-poweroff.git  package/luci-app-poweroff
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git  package/luci-app-poweroffdevice

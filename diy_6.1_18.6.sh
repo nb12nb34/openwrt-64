@@ -17,6 +17,6 @@ git clone https://github.com/fw876/helloworld.git package/ssr
 # git clone https://github.com/jerrykuku/luci-app-argon-config.git  package/luci-app-argon-config
 git clone https://github.com/nb12nb34/luci.git package/nb12nb34
 git clone https://github.com/esirplayground/luci-app-poweroff.git  package/luci-app-poweroff
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/passwall_luci
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall-packages
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2

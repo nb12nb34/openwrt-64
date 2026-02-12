@@ -19,3 +19,6 @@ git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wec
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall-packages
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
+
+
+sed -i 's/"services"/"nas"/g' ./feeds/luci/applications/luci-app-samba4/luasrc/controller/*.lua

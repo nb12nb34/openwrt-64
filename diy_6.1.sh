@@ -21,4 +21,4 @@ git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/open
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
 
 
-sed -i 's/"services"/"nas"/g' ./feeds/luci/applications/luci-app-samba4/luasrc/controller/*.lua
+sed -i 's/"services"/"nas"/g' feeds/luci/applications/luci-app-samba4/luasrc/controller/*.lua

@@ -16,9 +16,9 @@ git clone https://github.com/sirpdboy/luci-app-kucat-config.git package/luci-app
 git clone https://github.com/fw876/helloworld.git package/ssr
 # git clone https://github.com/esirplayground/luci-app-poweroff.git  package/luci-app-poweroff
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git  package/luci-app-poweroffdevice
-git clone https://github.com/sirpdboy/luci-app-timecontrol.git  package/luci-app-timecontrol
+# git clone https://github.com/sirpdboy/luci-app-timecontrol.git  package/luci-app-timecontrol
 git clone https://github.com/nb12nb34/luci.git package/nb12nb34
-rm -rf package/nb12nb34/luci-app-control-timewol
+# rm -rf package/nb12nb34/luci-app-control-timewol
 git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall-packages
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2

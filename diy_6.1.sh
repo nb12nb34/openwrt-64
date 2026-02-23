@@ -24,3 +24,5 @@ git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git pack
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
 src-git luci https://github.com/immortalwrt/luci.git
+./scripts/feeds update luci
+./scripts/feeds install -a -p luci

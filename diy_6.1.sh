@@ -22,6 +22,3 @@ git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wec
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall-packages
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
-#  src-git luci https://github.com/immortalwrt/luci.git
-# ./scripts/feeds update luci
-# ./scripts/feeds install -a -p luci

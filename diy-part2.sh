@@ -17,6 +17,7 @@ rm -rf ./feeds/luci/applications/luci-app-wechatpush
 rm -rf ./feeds/luci/applications/luci-app-openvpn-server
 rm -rf ./feeds/luci/applications/luci-app-aria2
 rm -rf ./feeds/luci/applications/luci-app-ipsec-vpnd
+rm -rf ./feeds/luci/applications/luci-app-ipsec-server
 rm -rf ./feeds/luci/applications/luci-app-samba4
 rm -rf ./feeds/luci/themes/luci-theme-argon
 

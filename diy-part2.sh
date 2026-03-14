@@ -18,6 +18,7 @@ rm -rf ./feeds/luci/applications/luci-app-openvpn-server
 rm -rf ./feeds/luci/applications/luci-app-aria2
 rm -rf ./feeds/luci/applications/uci-app-acme
 rm -rf ./feeds/luci/applications/luci-app-samba4
+rm -rf ./feeds/luci/applications/luci-app-transmission
 rm -rf ./feeds/luci/themes/luci-theme-argon
 
 

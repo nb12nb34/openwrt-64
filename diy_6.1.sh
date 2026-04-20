@@ -8,6 +8,7 @@
 # Blog: https://p3terx.com
 #=============================================================
 sed -i 's/KERNEL_PATCHVER:=6.6/KERNEL_PATCHVER:=6.12/g' ./target/linux/x86/Makefile
+sed -i 's/openwrt-25.12/openwrt-23.05/g' feeds.conf.default
 
 git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git  package/luci-app-argon-config

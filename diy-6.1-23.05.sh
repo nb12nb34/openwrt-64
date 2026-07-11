@@ -20,6 +20,9 @@ git clone https://github.com/sbwml/luci-app-openlist2.git package/openlist2
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/nb12nb34/luci.git package/nb12nb34
 git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall-packages
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
+src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main
+src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;main
+src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main
+# git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/openwrt-passwall-packages
+# git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
+# git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/openwrt-passwall
